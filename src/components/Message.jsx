@@ -7,12 +7,12 @@ const style = {
     received: `bg-[#e5e5ea] text-black float-left rounded-br-full`
 }
 
-const Message = () => {
+const Message = ({message}) => {
   return (
     <div>
         <div className={style.message}>
             <p className={style.name}>Rupam</p>
-            <p>Hello</p>
+            <p>{message.text}</p>
         </div>
     </div>
   )
