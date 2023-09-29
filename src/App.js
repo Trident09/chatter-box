@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 import { auth } from "./firebase";
 
 const style = {
-	appContainer: `max-w-[720px] mx-auto text-center mt-10`,
+	appContainer: `max-w-[720px] mx-auto text-center mt-10 sm:mx-0`,
 	sectionContainer: `flex flex-col h-[90vh] bg-gray-100 ml-10 shadow-xl border relative`,
 };
 
