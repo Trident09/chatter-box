@@ -5,8 +5,8 @@ import NavBar from "./components/NavBar";
 import { auth } from "./firebase";
 
 const style = {
-	appContainer: `max-w-[720px] mx-auto text-center mt-10 sm:mx-0 sm:max-w-screen sm:w-screen`,
-	sectionContainer: `flex flex-col h-[90vh] bg-gray-100 ml-10 shadow-xl border relative`,
+	appContainer: `max-w-[720px] mx-auto text-center mt-10 justify-center fixed top-0 left-0 right-0 bottom-0`,
+	sectionContainer: `flex flex-col h-[90vh] bg-gray-100 mx-10 shadow-xl border relative rounded-xl overflow-hidden border-gray-200 border-opacity-50`,
 };
 
 function App() {
